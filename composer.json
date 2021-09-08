@@ -1,0 +1,14 @@
+{
+  "extra": {
+    "installer-paths": {
+      "local/modules/{$name}/": ["type:bitrix-module"]
+    }
+  },
+  "require": {
+    "andreyryabin/sprint.migration": "dev-master",
+    "dg/rss-php": "*"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "5.*"
+  }
+}
